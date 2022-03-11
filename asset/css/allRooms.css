@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,200;1,400;1,500&display=swap');
+:root {
+    --color1: #c5a880;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background-color: #f6f5f2;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* ===== Header ====== */
+.header {
+    margin-bottom: -10%;
+    position: fixed;
+    z-index: 1111111111111;
+    position: relative;
+}
+
+.header__container {
+    padding: 1px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #f7346f;
+}
+
+.header__container .nav__menu,
+.header__container .nav__toggle {
+    display: none;
+}
+
+.header__branch {
+    padding: 10px 0;
+}
+
+.header__branch span {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.header__branch small {
+    color: #fff;
+}
+
+.header__nav .nav__container  {
+    
+}
+
+.show-menu {
+    top: 8rem;
+}
+
+
+.header__nav .nav__container .nav__body {
+    display: flex;
+    list-style: none;
+}
+
+.header__nav .nav__container .nav__body a{
+    padding: 15px 20px;
+    /* font-weight: bold; */
+    color: #fff;
+}
+
+.header__nav .nav__container .nav__body a:hover  {
+    border-bottom: 2px solid #ccc;
+}
+
+/* ---- header_search ------- */
+.header_search {
+    position: relative;
+    background-color: #fff;
+}
+
+.header_search .navbar {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.header_search .btn_back a {
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+.header_search .navbar-brand {
+    font-size: 20px;
+    font-weight: 600;
+    color: #f7346f;
+    padding: 0 10px;
+}
+
+/* .header_search .form-inline {
+    width: 40px;
+    border: 1px solid black;
+} */
+
+.header_search .form_location {
+    padding: 0 10px;
+    width: 128px;
+    height: 39px;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 21px;
+    border: 1px solid rgba(150, 142, 142, 0.315);
+}
+
+.header_search .form_location span {
+    color: #f7346f;
+}
+
+.header_search .form_location h4 {
+    padding: 0 5px;
+}
+
+.header_search .form-inline input{
+    width: 380px;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid rgba(143, 138, 138, 0.384);
+}
+
+.header_search .form-inline input::placeholder {
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+/* ------------ slider ----------- */
+ 
+.slider {
+    position: relative;
+    margin-top: 160px;
+    display: flex;
+    padding: 10px 30px;
+}
+
+/* --------- slider left ----------- */
+.slider_left {
+    display: block;
+    width: 40%;
+    margin: 20px;
+}
+
+.slider_left .features_tittle {
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.slider_left .features_tittle span {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.slider_left .features_tittle button {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #4877f8;
+    border-radius: 20px;
+    font-weight: 600;
+    color: #4877f8;
+    transform: translate(148px, 12px);
+}
+
+.right_room {
+    display: flex;
+    padding: 10px;
+    border: 2px solid rgba(133, 128, 128, 0.274);
+    border-radius: 10px;
+}
+
+.right_room .room_image img {
+    display: block;
+    width: 216px;
+    height: 150px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.right_room .room_desc {
+    padding: 2px 10px 2px 10px;
+}
+
+.right_room .desc_title {
+    font-size: 25px;
+}
+
+.right_room .desc_details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_room .gender {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_room .location {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.right_room .price {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #f73486;
+    transform: translateX(100px);
+}
+
+.right_room .price h3 {
+    font-size: 40px;
+}
+
+/* ----------- slider right ---------- */
+.slider_right {
+    width: 60%;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.right_rooms .rooms_title span{
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
+}

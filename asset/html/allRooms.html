@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/allRooms.css">
+    <title>View All</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6cc2366dae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+
+        <header class="header">
+            <div class="header__container">
+                <div class="header__branch">
+                    <a href="">
+                        <span>LOGO</span>
+                    </a>
+                </div>
+                <div class="header__nav">
+                    <div class="nav__container">
+                        <ul class="nav__body">
+                            <li class="nav__item"><a href="">Home</a></li>
+                            <li class="nav__item"><a href="blog.html">Blog</a></li>
+                            <li class="nav__item"><a href="contact.html">Contact</a></li>
+                            <li class="nav__item"><a href="contact.html">Account</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header_search">
+                <nav class="navbar navbar-light bg-light justify-content-between">
+                    <div class="btn_back">
+                        <a href="Homescreens.html"><i class="fa-solid fa-caret-left"></i></a>
+                    </div>
+                    <a class="navbar-brand">LOGO</a>
+                    <form class="form-inline" style="display: flex;">
+                      <div class="form_location" style="display: flex;">
+                          <span><i class="fa-solid fa-location-pin"></i></span>
+                          <h4>Đà Nẵng</h4>
+                          <span><i class="fa-solid fa-chevron-down"></i></span>
+                      </div>
+                      <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm theo địa chỉ..." aria-label="Search">
+                      <button 
+                        class="btn btn-outline-success my-2 my-sm-0" 
+                        type="submit" 
+                        style=" border-radius: 0 20px 20px 0;
+                                width: 50px;"
+                      >
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                    </form>
+                  </nav>
+            </div>
+        </header>
+
+        <div class="slider">
+            <div class="slider_left">
+                <div class="left_features">
+                    <div class="features_tittle">
+                        <span>Bộ Lọc</span>
+                        <div class="fe_btn">
+                            <button>Áp dụng</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="slider_right">
+                <div class="right_rooms">
+                    <div class="rooms_title">
+                        <span>Phòng mới nhất</span>
+                    </div>
+                    <div class="right_room">
+                        <div class="room_image">
+                            <img src="/frontend/asset/img/phong1.jpg" alt="">
+                        </div>
+                        <div class="room_desc">
+                            <div class="desc_title">
+                                <span>Phòng trọ đường Đà Sơn, Hoàng Văn Thái</span>
+                            </div>
+                            <div class="desc_details">
+                                <div class="desc">
+                                    <h4><box-icon name='home'></box-icon> Còn Phòng</h4>
+                                    <div class="gender">
+                                        <span><box-icon name='user'></box-icon> Nam & Nữ</span>
+                                        <span><box-icon name='ruler'></box-icon> 20m2</span>
+                                    </div>
+                                    <div class="location">
+                                        <span><box-icon name='current-location'></box-icon>54 Đà Sơn, Hoàng Văn Thái, quận Liên Chiểu</span>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <h3>2</h3>
+                                    <span>tr/tháng</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
