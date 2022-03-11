@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/reset.css">
+    <link rel="stylesheet" href="../css/Homescreen.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <title>MG5</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__branch">
+                    <a href="">
+                        <span>LOGO</span>
+                    </a>
+                </div>
+                <div class="header__nav">
+                    <div class="nav__container">
+                        <ul class="nav__body">
+                            <li class="nav__item"><a href="">Home</a></li>
+                            <li class="nav__item"><a href="blog.html">Blog</a></li>
+                            <li class="nav__item"><a href="contact.html">Contact</a></li>
+                            <li class="nav__item"><a href="contact.html">Account</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="slider">
+            <div class="slider_container">
+                <section class="slider_home">
+                    <div class="home__img" style="background-image: url(../img/pexels-visually-us-1643409.jpg);">
+                        <div class="overlay"></div>
+                        <div class="home__title">
+                            <div class="home_postRoom">
+                                <a href="postRoom.html">Đăng Phòng</a>
+                            </div>
+                            <div class="title__desc">
+                                <span>MR5</span>
+                                <h2>Ứng dụng hỗ trợ thuê trọ</h2>
+                            </div>
+                            <div class="title__btns">
+                                <form>
+                                    <div class="inner-form">
+                                        <div class="form_container">
+                                            <div class="location">
+                                                <span><box-icon type='solid' name='location-plus'></box-icon></span>
+                                                <span>Đà Nẵng</span>
+                                                <span><box-icon type='solid' name='chevron-down'></box-icon></span>
+                                            </div>
+                                            <input type="text" placeholder="Nhập quận muốn tìm kiếm" id="search_btn">
+                                            <button><box-icon name='search-alt-2'></box-icon></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="slider_xuhuong">
+                    <div class='XuHuong_container'>
+                        <div class='xuhuong_group'>
+                            <div class='title'>
+                                <span>Xu hướng tìm kiếm</span>
+                            </div>
+                            <div class='xuhuong_item'>
+                                <div class='item'>
+                                    <div class='item_name' >
+                                        <img src="/frontend/asset/img/HaiChau.jpg" alt="">
+                                        <span>Hải Châu</span>
+                                    </div>
+                                </div>
+                                <div class='item'>
+                                    <div class='item_name'>
+                                        <img src="/frontend/asset/img/HoaVang.jpg" alt="">
+                                        <span>Hòa Vang</span>
+                                    </div>
+                                </div>
+                                <div class='item'>
+                                    <div class='item_name'>
+                                        <img src="/frontend/asset/img/ThanhKhe.jpg" alt="">
+                                        <span>Thanh Khê</span>
+                                    </div>
+                                </div>
+                                <div class='item'>
+                                    <div class='item_name'>
+                                        <img src="/frontend/asset/img/SonTra.jpg" alt="">
+                                        <span>Sơn Trà</span>
+                                    </div>
+                                </div>
+                                <div class='item'>
+                                    <div class='item_name'>
+                                        <img src="/frontend/asset/img/NguHanhSon.jpg" alt="">
+                                        <span>Ngũ Hành Sơn</span>
+                                    </div>
+                                </div>
+                                <div class='item'>
+                                    <div class='item_name'>
+                                        <img src="/frontend/asset/img/LienChieu.jpg" alt="">
+                                        <span>Liên Chiểu</span>
+                                    </div>
+                                </div>
+                                <div class='item'>
+                                    <div class='item_name'>
+                                        <img src="/frontend/asset/img/CamLe.jpg" alt="">
+                                        <span>Cẩm Lệ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="slider_listRoom">
+                    <div class="listRoom_container">
+                        <div class="listRoom_left">
+                            <div class="left_container">
+                                <div class="left_title">
+                                    <span>Mới Nhất</span>
+                                </div>
+                                <div class="left_room">
+                                    <div class="room_image">
+                                        <img src="/frontend/asset/img/phong1.jpg" alt="">
+                                    </div>
+                                    <div class="room_desc">
+                                        <div class="desc_title">
+                                            <span>Phòng trọ đường Đà Sơn, Hoàng Văn Thái</span>
+                                        </div>
+                                        <div class="desc_details">
+                                            <div class="desc">
+                                                <h4><box-icon name='home'></box-icon> Còn Phòng</h4>
+                                                <div class="gender">
+                                                    <span><box-icon name='user'></box-icon> Nam & Nữ</span>
+                                                    <span><box-icon name='ruler'></box-icon> 20m2</span>
+                                                </div>
+                                                <div class="location">
+                                                    <span><box-icon name='current-location'></box-icon>54 Đà Sơn, Hoàng Văn Thái, quận Liên Chiểu</span>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <h3>2</h3>
+                                                <span>tr/tháng</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="left_room">
+                                    <div class="room_image">
+                                        <img src="/frontend/asset/img/phong2.jpg" alt="">
+                                    </div>
+                                    <div class="room_desc">
+                                        <div class="desc_title">
+                                            <span>Phòng trọ đẹp, sạch sẽ, wifi free 305 Huy Cận</span>
+                                        </div>
+                                        <div class="desc_details">
+                                            <div class="desc">
+                                                <h4><box-icon name='home'></box-icon> Còn Phòng</h4>
+                                                <div class="gender">
+                                                    <span><box-icon name='user'></box-icon> Nam & Nữ</span>
+                                                    <span><box-icon name='ruler'></box-icon> 18m2</span>
+                                                </div>
+                                                <div class="location">
+                                                    <span><box-icon name='current-location'></box-icon>305 Huy Cận, Quận Cẩm Lệ</span>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <h3>3</h3>
+                                                <span>tr/tháng</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="left_room">
+                                    <div class="room_image">
+                                        <img src="/frontend/asset/img/phong3.jpg" alt="">
+                                    </div>
+                                    <div class="room_desc">
+                                        <div class="desc_title">
+                                            <span>Phòng trọ đường 7m5, Ngay cầu vượt Hòa Cầm</span>
+                                        </div>
+                                        <div class="desc_details">
+                                            <div class="desc">
+                                                <h4><box-icon name='home'></box-icon> Còn Phòng</h4>
+                                                <div class="gender">
+                                                    <span><box-icon name='user'></box-icon> Nam & Nữ</span>
+                                                    <span><box-icon name='ruler'></box-icon> 25m2</span>
+                                                </div>
+                                                <div class="location">
+                                                    <span><box-icon name='current-location'></box-icon>54 Đà Sơn, Hoàng Văn Thái, quận Liên Chiểu</span>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <h3>1.7</h3>
+                                                <span>tr/tháng</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="left_room">
+                                    <div class="room_image">
+                                        <img src="/frontend/asset/img/phong4.jpg" alt="">
+                                    </div>
+                                    <div class="room_desc">
+                                        <div class="desc_title">
+                                            <span>Phòng trọ số 23 Trần Quang Diệu, Sơn Trà</span>
+                                        </div>
+                                        <div class="desc_details">
+                                            <div class="desc">
+                                                <h4><box-icon name='home'></box-icon> Còn Phòng</h4>
+                                                <div class="gender">
+                                                    <span><box-icon name='user'></box-icon> Nam & Nữ</span>
+                                                    <span><box-icon name='ruler'></box-icon> 19m2</span>
+                                                </div>
+                                                <div class="location">
+                                                    <span><box-icon name='current-location'></box-icon>23 Thọ Quang, Quận Sơn Trà</span>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <h3>1.9</h3>
+                                                <span>tr/tháng</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="left_room">
+                                    <div class="room_image">
+                                        <img src="/frontend/asset/img/phong5.jpg" alt="">
+                                    </div>
+                                    <div class="room_desc">
+                                        <div class="desc_title">
+                                            <span>Phòng trọ 21 Vạn Tường, gần chợ Hòa Hải</span>
+                                        </div>
+                                        <div class="desc_details">
+                                            <div class="desc">
+                                                <h4><box-icon name='home'></box-icon> Còn Phòng</h4>
+                                                <div class="gender">
+                                                    <span><box-icon name='user'></box-icon> Nam & Nữ</span>
+                                                    <span><box-icon name='ruler'></box-icon> 24m2</span>
+                                                </div>
+                                                <div class="location">
+                                                    <span><box-icon name='current-location'></box-icon>21 Vạn Tường, Quận Ngũ Hành Sơn</span>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <h3>2</h3>
+                                                <span>tr/tháng</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="left_room">
+                                    <div class="room_image">
+                                        <img src="/frontend/asset/img/phong6.jpg" alt="">
+                                    </div>
+                                    <div class="room_desc">
+                                        <div class="desc_title">
+                                            <span>Phòng trọ SV đường Phan Thanh gần ĐH Duy Tân</span>
+                                        </div>
+                                        <div class="desc_details">
+                                            <div class="desc">
+                                                <h4><box-icon name='home'></box-icon> Còn Phòng</h4>
+                                                <div class="gender">
+                                                    <span><box-icon name='user'></box-icon> Nam & Nữ</span>
+                                                    <span><box-icon name='ruler'></box-icon> 20m2</span>
+                                                </div>
+                                                <div class="location">
+                                                    <span><box-icon name='current-location'></box-icon>89 Phan Thanh, Quận Thanh Khê</span>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <h3>2</h3>
+                                                <span>tr/tháng</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="left_room">
+                                    <div class="room_image">
+                                        <img src="/frontend/asset/img/phong7.jpg" alt="">
+                                    </div>
+                                    <div class="room_desc">
+                                        <div class="desc_title">
+                                            <span>Phòng trọ 83 Đinh Núp, Quận Thanh Khê</span>
+                                        </div>
+                                        <div class="desc_details">
+                                            <div class="desc">
+                                                <h4><box-icon name='home'></box-icon> Còn Phòng</h4>
+                                                <div class="gender">
+                                                    <span><box-icon name='user'></box-icon> Nam & Nữ</span>
+                                                    <span><box-icon name='ruler'></box-icon> 26m2</span>
+                                                </div>
+                                                <div class="location">
+                                                    <span><box-icon name='current-location'></box-icon>83 Đinh Núp, Quận Thanh Khê</span>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <h3>3</h3>
+                                                <span>tr/tháng</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="left_room">
+                                    <div class="room_image">
+                                        <img src="/frontend/asset/img/phong8.jpg" alt="">
+                                    </div>
+                                    <div class="room_desc">
+                                        <div class="desc_title">
+                                            <span>Phòng trọ 17m2 đường Núi Thành, Quận Hải Châu</span>
+                                        </div>
+                                        <div class="desc_details">
+                                            <div class="desc">
+                                                <h4><box-icon name='home'></box-icon> Còn Phòng</h4>
+                                                <div class="gender">
+                                                    <span><box-icon name='user'></box-icon> Nam & Nữ</span>
+                                                    <span><box-icon name='ruler'></box-icon> 20m2</span>
+                                                </div>
+                                                <div class="location">
+                                                    <span><box-icon name='current-location'></box-icon>23 Núi Thành, Quận Hải Châu</span>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <h3>2</h3>
+                                                <span>tr/tháng</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="left_room">
+                                    <div class="room_image">
+                                        <img src="/frontend/asset/img/phong9.jpg" alt="">
+                                    </div>
+                                    <div class="room_desc">
+                                        <div class="desc_title">
+                                            <span>Phòng trọ 91/53, Cù Chính Lan, Quận Thanh Khê</span>
+                                        </div>
+                                        <div class="desc_details">
+                                            <div class="desc">
+                                                <h4><box-icon name='home'></box-icon> Còn Phòng</h4>
+                                                <div class="gender">
+                                                    <span><box-icon name='user'></box-icon> Nam & Nữ</span>
+                                                    <span><box-icon name='ruler'></box-icon> 20m2</span>
+                                                </div>
+                                                <div class="location">
+                                                    <span><box-icon name='current-location'></box-icon>91/53 đường Cù Chính Lan, Quận Thanh Khê</span>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <h3>2</h3>
+                                                <span>tr/tháng</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="left_room">
+                                    <div class="room_image">
+                                        <img src="/frontend/asset/img/phong10.jpg" alt="">
+                                    </div>
+                                    <div class="room_desc">
+                                        <div class="desc_title">
+                                            <span>Phòng trọ Mai Lão Bạng, Quận Hải Châu</span>
+                                        </div>
+                                        <div class="desc_details">
+                                            <div class="desc">
+                                                <h4><box-icon name='home'></box-icon> Còn Phòng</h4>
+                                                <div class="gender">
+                                                    <span><box-icon name='user'></box-icon> Nam & Nữ</span>
+                                                    <span><box-icon name='ruler'></box-icon> 20m2</span>
+                                                </div>
+                                                <div class="location">
+                                                    <span><box-icon name='current-location'></box-icon>83 Đinh Núp, Quận Thanh Khê</span>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <h3>2</h3>
+                                                <span>tr/tháng</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn_seeAll">
+                                <span>Xem tất cả</span>
+                            </div>
+                        </div>
+                        <div class="listRoom_right">
+                            <div class="right_container">
+                                <div class="right_title">
+                                    <div class="title">
+                                        Đã xác thực
+                                    </div>
+                                    <div class="btn_title">
+                                        xem tất cả
+                                    </div>
+                                </div>
+                                <div class="right_room">
+                                    <div class="room_image">
+                                        <img src="../img/phong1.jpg" alt="Phòng đã xác thực">
+                                    </div>
+                                    <div class="room_desc">
+                                        <div class="desc_title">
+                                            <span>Phòng trọ đường Đà Sơn, Hoàng Văn Thái</span>
+                                        </div>
+                                        <div class="desc_price">
+                                            <p>Quận Liên Chiểu</p>
+                                            <span>2 tr/tháng</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right_room">
+                                    <div class="room_image">
+                                        <img src="../img/phong1.jpg" alt="Phòng đã xác thực">
+                                    </div>
+                                    <div class="room_desc">
+                                        <div class="desc_title">
+                                            <span>Phòng trọ đường Đà Sơn, Hoàng Văn Thái</span>
+                                        </div>
+                                        <div class="desc_price">
+                                            <p>Quận Liên Chiểu</p>
+                                            <span>2 tr/tháng</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right_room">
+                                    <div class="room_image">
+                                        <img src="../img/phong1.jpg" alt="Phòng đã xác thực">
+                                    </div>
+                                    <div class="room_desc">
+                                        <div class="desc_title">
+                                            <span>Phòng trọ đường Đà Sơn, Hoàng Văn Thái</span>
+                                        </div>
+                                        <div class="desc_price">
+                                            <p>Quận Liên Chiểu</p>
+                                            <span>2 tr/tháng</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right_room">
+                                    <div class="room_image">
+                                        <img src="../img/phong1.jpg" alt="Phòng đã xác thực">
+                                    </div>
+                                    <div class="room_desc">
+                                        <div class="desc_title">
+                                            <span>Phòng trọ đường Đà Sơn, Hoàng Văn Thái</span>
+                                        </div>
+                                        <div class="desc_price">
+                                            <p>Quận Liên Chiểu</p>
+                                            <span>2 tr/tháng</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right_room">
+                                    <div class="room_image">
+                                        <img src="../img/phong1.jpg" alt="Phòng đã xác thực">
+                                    </div>
+                                    <div class="room_desc">
+                                        <div class="desc_title">
+                                            <span>Phòng trọ đường Đà Sơn, Hoàng Văn Thái</span>
+                                        </div>
+                                        <div class="desc_price">
+                                            <p>Quận Liên Chiểu</p>
+                                            <span>2 tr/tháng</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right_room">
+                                    <div class="room_image">
+                                        <img src="../img/phong1.jpg" alt="Phòng đã xác thực">
+                                    </div>
+                                    <div class="room_desc">
+                                        <div class="desc_title">
+                                            <span>Phòng trọ đường Đà Sơn, Hoàng Văn Thái</span>
+                                        </div>
+                                        <div class="desc_price">
+                                            <p>Quận Liên Chiểu</p>
+                                            <span>2 tr/tháng</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right_room">
+                                    <div class="room_image">
+                                        <img src="../img/phong1.jpg" alt="Phòng đã xác thực">
+                                    </div>
+                                    <div class="room_desc">
+                                        <div class="desc_title">
+                                            <span>Phòng trọ đường Đà Sơn, Hoàng Văn Thái</span>
+                                        </div>
+                                        <div class="desc_price">
+                                            <p>Quận Liên Chiểu</p>
+                                            <span>2 tr/tháng</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn_seeAll">
+                                <span>Xem tất cả</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer_conataner">
+                <span>&copyCopyright: Group 5</span>                
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
