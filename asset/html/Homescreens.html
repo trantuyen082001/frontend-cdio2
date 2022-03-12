@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="../css/Homescreen.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6cc2366dae.js" crossorigin="anonymous"></script>
+
     <title>MG5</title>
 </head>
 <body>
@@ -47,17 +51,32 @@
                             </div>
                             <div class="title__btns">
                                 <form>
-                                    <div class="inner-form">
                                         <div class="form_container">
                                             <div class="location">
-                                                <span><box-icon type='solid' name='location-plus'></box-icon></span>
-                                                <span>Đà Nẵng</span>
-                                                <span><box-icon type='solid' name='chevron-down'></box-icon></span>
-                                            </div>
-                                            <input type="text" placeholder="Nhập quận muốn tìm kiếm" id="search_btn">
-                                            <button><box-icon name='search-alt-2'></box-icon></button>
+                                                <form class="form-inline" style="display: flex;">
+                                                    <div class="form_location" style="display: flex;">
+                                                        <span><i class="fa-solid fa-location-pin"></i></span>
+                                                        <h4>Đà Nẵng</h4>
+                                                        <span><i class="fa-solid fa-chevron-down"></i></span>
+                                                    </div>
+                                                    <input style="width: 300px;
+                                                                  height: 50px;
+                                                                  border-radius: 20px 0 0 20px;"
+                                                           class="form-control mr-sm-2"
+                                                           type="search" 
+                                                           placeholder="Tìm kiếm theo địa chỉ..." 
+                                                           aria-label="Search">
+                                                    <button 
+                                                      class="btn btn-outline-success my-2 my-sm-0" 
+                                                      type="submit" 
+                                                      style=" border-radius: 0 20px 20px 0;
+                                                              width: 50px;
+                                                              height: 50px;"
+                                                    >
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                    </button>
+                                                </form>
                                         </div>
-                                    </div>
                                 </form>
                             </div>
                         </div>
@@ -387,7 +406,7 @@
                                 </div>
                             </div>
                             <div class="btn_seeAll">
-                                <span>Xem tất cả</span>
+                                <span><a href="./allRooms.html">Xem tất cả</a></span>
                             </div>
                         </div>
                         <div class="listRoom_right">
@@ -397,7 +416,7 @@
                                         Đã xác thực
                                     </div>
                                     <div class="btn_title">
-                                        xem tất cả
+                                        <a href="./allRooms.html">Xem tất cả</a>
                                     </div>
                                 </div>
                                 <div class="right_room">
@@ -500,7 +519,7 @@
                                 </div>
                             </div>
                             <div class="btn_seeAll">
-                                <span>Xem tất cả</span>
+                                <span><a href="./allRooms.html">Xem tất cả</a></span>
                             </div>
                         </div>
                     </div>
