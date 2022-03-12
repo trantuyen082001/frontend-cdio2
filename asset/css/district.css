@@ -499,8 +499,20 @@ input[type='range']::-ms-thumb {
 
 .slider_right {
     width: 60%;
-    background-color: #fff;
+}
+
+.right_rooms {
     border-radius: 20px;
+    background-color: #fff;
+}
+
+.district_name {
+    transform: translateY(-20px);
+}
+
+.district_name i {
+    padding: 0 5px;
+    color: #f7346f;
 }
 
 .right_rooms .rooms_title span{
